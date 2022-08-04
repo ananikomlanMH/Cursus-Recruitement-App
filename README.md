@@ -47,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Cursus Screen Shot][product-screenshot]]
+![Cursus Screen Shot][product-screenshot]
 
 --------------------------------------------------------------------
 
@@ -79,7 +79,7 @@
 [license-url]: https://github.com/ananikomlanMH/Cursus-Recruitement-App/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/komlan-mawulom-h-anani-b86a30219
-[product-screenshot]: img/scrennshot.png
+[product-screenshot]: img/screnshot.svg
 [html]: https://img.shields.io/badge/HTML-dd4b25?style=for-the-badge&logo=html5&logoColor=white
 [css]: https://img.shields.io/badge/CSS3-1181d9?style=for-the-badge&logo=css3&logoColor=white
 [sass]: https://img.shields.io/badge/SASS-c76395?style=for-the-badge&logo=sass&logoColor=white
