@@ -1,0 +1,474 @@
+:root{
+
+    // selection text
+    --selection-background : #077aff;
+    --selection-text : #fff;
+
+    // scroll bar color
+    --scrool-background : #fff;
+    --scrool-bar : #d5e3ec;
+
+    // general coloration
+    --primary-color : #077aff;
+    --primary-color-contrast : #077bffe5;
+    --white-color : #fff;
+
+    // body background
+    --body-background : #fff;
+    --body-font-color : #121c42;
+    --body-font-color-saturate : #121c42;
+
+    // header menu navigation
+    --header-nav-background : #fff;
+    --header-nav-link-color : #989595;
+    --header-nav-link-separate-color : var(--header-nav-link-color);
+    --header-nav-link-color-hover : var(--primary-color-contrast);
+    --header-nav-bottom-bar : #dfdfdf;
+
+    // sticky header
+    --sticky-shadow : #b4b4b4;
+
+    // home hero section
+    --hero-background : #fff;
+    --hero-form-shadow : #989595c4;
+    --hero-form-border-color : #98959577;
+    --hero-form-input-separate-bar : #b4b4b4;
+
+    // home count section
+    --count-section-background : #014da8;
+    --count-section-font-color : #fff;
+    --count-section-separate-bar : #00469c;
+
+    // tag section
+    --tag-background : #f7fafb;
+    --tag-nav-border-color : #ccc;
+    --tag-item-background : #f7fafb;
+    --tag-shadow : #00000027;
+    --tag-border-color : #ccc;
+
+    // jobs section
+    --jobs-background : #f7fafb;
+    --jobs-more-shadow : #cccccc9c;
+    --jobs-form-shadow : #cccccc9c;
+    --jobs-form-border : #ccc;
+    --jobs-form-select-separate-bar : #cccccca9;
+    --jobs-form-select-placeholder: #bfbfbf;
+    --jobs-form-select-dropdown-background: var(--jobs-background);
+    --jobs-form-select-dropdown-border: #ccc;
+    --jobs-form-select-dropdown-actionBox-background: #f5f5f500;
+    --job-item-border : #ccc;
+    --job-item-shadow : #cccccc57;
+
+    // annonces section
+    --annonces-background : #f7fafb;
+    --annonces-form-shadow : #cccccc9c;
+    --annonces-form-border : #ccc;
+    --annonces-form-select-separate-bar : #cccccca9;
+    --annonces-form-select-placeholder: #bfbfbf;
+    --annonces-form-select-dropdown-background: var(--jobs-background);
+    --annonces-form-select-dropdown-border: #ccc;
+    --annonces-form-select-dropdown-actionBox-background: #f5f5f500;
+    --annonce-item-border : #ccc;
+    --annonce-item-shadow : #cccccc57;
+
+    // ressource section
+    --ressource-background : #f7fafb;
+    --ressource-item-border : #ccc;
+    --ressource-item-shadow : #cccccc57;
+    --ressource-item-overlay : #00469c5d;
+    --ressource-item-btn : rgba(204, 204, 204, 0.329);
+
+    // blog section
+    --blog-background : #f7fafb;
+    --blog-dropdown-button-border : #ccccccc2;
+    --blog-dropdown-button-hover-border : #ccc;
+    --blog-dropdown-menu-hover : rgba(204, 204, 204, 0.164);
+    --blog-dropdown-button-shadow : #cccccc81;
+    --blog-post-border : #ccccccb2;
+    --blog-post-shadow : #cccccc81;
+    --blog-post-overlay : #00469c5d;
+
+
+    // annuaire section
+    --annuaire-background : #f7fafb;
+    --annuaire-form-shadow : #cccccc9c;
+    --annuaire-form-border : #ccc;
+    --annuaire-item-border : #cccccc4d;
+    --annuaire-item-bg : #fff;
+    --annuaire-item-shadow : #cccccc80;
+    --annuaire-item-link : #a6a6a4;
+
+    // contact section
+    --contact-background: #f7fafb;
+    --contact-shadow: #cfcfcf2f;
+    --contact-right-background: #fff;
+    --contact-right-input-border: rgb(221, 221, 221);
+
+    // login
+    --login-background : #f7fafb;
+    --login-form-background : #ffffff8f;
+    --login-form-border : #bfbfbf;
+    --login-form-shadow : #b9b9b980;
+    --login-form-error : #dc3545;
+    --login-form-icon : #bfbfbf;
+    --login-form-placeholder : #bfbfbf;
+
+    // signIn
+    --signIn-background : #f7fafb;
+    --signIn-form-background : #ffffff8f;
+    --signIn-form-border : #bfbfbf;
+    --signIn-form-shadow : #b9b9b980;
+    --signIn-form-error : #dc3545;
+    --signIn-form-icon : #bfbfbf;
+    --signIn-form-placeholder : #bfbfbf;
+
+    // popUp Section
+    --popUp-background : rgba(255, 255, 255, 0.678);
+    --popUp-newletter-background : #ffffff;
+    --popUp-newletter-shadow : #00000034;
+    --popUp-newletter-close-bg : #cccccc44;
+    --popUp-form-border : #bfbfbf;
+    --popUp-form-error : #dc3545;
+    --popUp-form-icon : #bfbfbf;
+    --popUp-form-placeholder : #bfbfbf;
+    --popUp-form-select-dropdown-actionBox-background: #f5f5f500;
+
+    // terms
+    --terms-background : #f7fafb;
+
+    // footer section
+    --footer-background : #f7fafb;
+    --footer-border-top : rgba(204, 204, 204, 0.7);
+
+    // copyright section
+    --copyright-background : #f7fafb;
+    --copyright-border-top : rgba(204, 204, 204, 0.7);
+    --copyright-scroll-top : #cccccc;
+
+    // breadcumbs section
+    --breadcumbs-background : #fefefe;
+
+    // pagination
+    --pagination-border : #ccc;
+    --pagination-shadow : #cccccc9c;
+
+}
+
+.light{
+
+    // selection text
+    --selection-background : #077aff;
+    --selection-text : #fff;
+
+    // scroll bar color
+    --scrool-background : #fff;
+    --scrool-bar : #d5e3ec;
+
+    // general coloration
+    --primary-color : #077aff;
+    --primary-color-contrast : #077bffe5;
+    --white-color : #fff;
+
+    // body background
+    --body-background : #fff;
+    --body-font-color : #121c42;
+    --body-font-color-saturate : #121c42;
+
+    // header menu navigation
+    --header-nav-background : #fff;
+    --header-nav-link-color : #989595;
+    --header-nav-link-separate-color : var(--header-nav-link-color);
+    --header-nav-link-color-hover : var(--primary-color-contrast);
+    --header-nav-bottom-bar : #dfdfdf;
+
+    // sticky header
+    --sticky-shadow : #b4b4b4;
+
+    // home hero section
+    --hero-background : #fff;
+    --hero-form-shadow : #989595c4;
+    --hero-form-border-color : #98959577;
+    --hero-form-input-separate-bar : #b4b4b4;
+
+    // home count section
+    --count-section-background : #014da8;
+    --count-section-font-color : #fff;
+    --count-section-separate-bar : #00469c;
+
+    // tag section
+    --tag-background : #f7fafb;
+    --tag-nav-border-color : #ccc;
+    --tag-item-background: #f7fafb;
+    --tag-shadow : #00000027;
+    --tag-border-color : #ccc;
+
+    // jobs section
+    --jobs-background : #f7fafb;
+    --jobs-more-shadow : #cccccc9c;
+    --jobs-form-shadow : #cccccc9c;
+    --jobs-form-border : #ccc;
+    --jobs-form-select-separate-bar : #cccccca9;
+    --jobs-form-select-placeholder: #bfbfbf;
+    --jobs-form-select-dropdown-background: var(--jobs-background);
+    --jobs-form-select-dropdown-border: #ccc;
+    --jobs-form-select-dropdown-actionBox-background: #f5f5f500;
+    --job-item-border : #ccc;
+    --job-item-shadow : #cccccc57;
+
+    // annonces section
+    --annonces-background : #f7fafb;
+    --annonces-form-shadow : #cccccc9c;
+    --annonces-form-border : #ccc;
+    --annonces-form-select-separate-bar : #cccccca9;
+    --annonces-form-select-placeholder: #bfbfbf;
+    --annonces-form-select-dropdown-background: var(--jobs-background);
+    --annonces-form-select-dropdown-border: #ccc;
+    --annonces-form-select-dropdown-actionBox-background: #f5f5f500;
+    --annonce-item-border : #ccc;
+    --annonce-item-shadow : #cccccc57;
+
+    // ressource section
+    --ressource-background : #f7fafb;
+    --ressource-item-border : #ccc;
+    --ressource-item-shadow : #cccccc57;
+    --ressource-item-overlay : #00469c5d;
+    --ressource-item-btn : rgba(204, 204, 204, 0.329);
+
+    // blog section
+    --blog-background : #f7fafb;
+    --blog-dropdown-button-border : #ccccccc2;
+    --blog-dropdown-button-hover-border : #ccc;
+    --blog-dropdown-menu-hover : rgba(204, 204, 204, 0.164);
+    --blog-dropdown-button-shadow : #cccccc81;
+    --blog-post-border : #ccccccb2;
+    --blog-post-shadow : #cccccc81;
+    --blog-post-overlay : #00469c5d;
+
+
+    // annuaire section
+    --annuaire-background : #f7fafb;
+    --annuaire-form-shadow : #cccccc9c;
+    --annuaire-form-border : #ccc;
+    --annuaire-item-border : #cccccc4d;
+    --annuaire-item-bg : #fff;
+    --annuaire-item-shadow : #cccccc80;
+    --annuaire-item-link : #a6a6a4;
+
+    // contact section
+    --contact-background: #f7fafb;
+    --contact-shadow: #cfcfcf2f;
+    --contact-right-background: #fff;
+    --contact-right-input-border: rgb(221, 221, 221);
+
+    // login
+    --login-background : #f7fafb;
+    --login-form-background : #ffffff8f;
+    --login-form-border : #bfbfbf;
+    --login-form-shadow : #b9b9b980;
+    --login-form-error : #dc3545;
+    --login-form-icon : #bfbfbf;
+    --login-form-placeholder : #bfbfbf;
+
+    // signIn
+    --signIn-background : #f7fafb;
+    --signIn-form-background : #ffffff8f;
+    --signIn-form-border : #bfbfbf;
+    --signIn-form-shadow : #b9b9b980;
+    --signIn-form-error : #dc3545;
+    --signIn-form-icon : #bfbfbf;
+    --signIn-form-placeholder : #bfbfbf;
+
+    // popUp Section
+    --popUp-background : rgba(255, 255, 255, 0.678);
+    --popUp-newletter-background : #ffffff;
+    --popUp-newletter-shadow : #00000034;
+    --popUp-newletter-close-bg : #cccccc44;
+    --popUp-form-border : #bfbfbf;
+    --popUp-form-error : #dc3545;
+    --popUp-form-icon : #bfbfbf;
+    --popUp-form-placeholder : #bfbfbf;
+    --popUp-form-select-dropdown-actionBox-background: #f5f5f500;
+
+    // terms
+    --terms-background : #f7fafb;
+
+    // footer section
+    --footer-background : #f7fafb;
+    --footer-border-top : rgba(204, 204, 204, 0.7);
+
+    // copyright section
+    --copyright-background : #f7fafb;
+    --copyright-border-top : rgba(204, 204, 204, 0.7);
+    --copyright-scroll-top : #cccccc;
+
+    // breadcumbs section
+    --breadcumbs-background : #fefefe;
+
+    // pagination
+    --pagination-border : #ccc;
+    --pagination-shadow : #cccccc9c;
+
+}
+
+.dark{
+
+    // selection text
+    --selection-background : #077aff;
+    --selection-text : #fff;
+
+    // scroll bar color
+    --scrool-background : #1b1e3d;
+    --scrool-bar : #2a2e5e;
+
+    // general coloration
+    --primary-color : #077aff;
+    --primary-color-contrast : #077bffe5;
+    --white-color : #fff;
+
+    // body background
+    --body-background : #171932;
+    --body-font-color : #d4dcff;
+    --body-font-color-saturate : #121c42;
+
+    // header menu navigation
+    --header-nav-background : #171932;
+    --header-nav-link-color : #d4dcff;
+    --header-nav-link-separate-color : var(--header-nav-link-color);
+    --header-nav-link-color-hover : var(--primary-color-contrast);
+    --header-nav-bottom-bar : #2a2e5e;
+
+    // sticky header
+    --sticky-shadow : #171933;
+
+    // home hero section
+    --hero-background : #171932;
+    --hero-form-shadow : rgba(0, 0, 0, 0.3);
+    --hero-form-border-color : #077aff;
+    --hero-form-input-separate-bar : #d4dcff;
+
+    // home count section
+    --count-section-background : #014da8;
+    --count-section-font-color : #fff;
+    --count-section-separate-bar : #00469c;
+
+    // tag section
+    --tag-background : #1b1e3d;
+    --tag-nav-border-color : #d4dcff6c;
+    --tag-item-background : #2a2e5e25;
+    --tag-shadow : rgba(0, 0, 0, 0.3);
+    --tag-border-color : #d4dcff5b;
+
+    // jobs section
+    --jobs-background : #1b1e3d;
+    --jobs-more-shadow : rgba(0, 0, 0, 0.3);
+    --jobs-form-shadow : rgba(0, 0, 0, 0.3);
+    --jobs-form-border : #077aff;
+    --jobs-form-select-separate-bar : #d4dcff;
+    --jobs-form-select-placeholder: #d4dcff;
+    --jobs-form-select-dropdown-background: var(--jobs-background);
+    --jobs-form-select-dropdown-border: #2a2e5e;
+    --jobs-form-select-dropdown-actionBox-background: none;
+    --job-item-border : #2a2e5e;
+    --job-item-shadow : rgba(0, 0, 0, 0.3);
+
+    // annonces section
+    --annonces-background : #1b1e3d;
+    --annonces-form-shadow : rgba(0, 0, 0, 0.3);
+    --annonces-form-border : #077aff;
+    --annonces-form-select-separate-bar : #d4dcff;
+    --annonces-form-select-placeholder: #d4dcff;
+    --annonces-form-select-dropdown-background: var(--jobs-background);
+    --annonces-form-select-dropdown-border: #2a2e5e;
+    --annonces-form-select-dropdown-actionBox-background: none;
+    --annonce-item-border : #2a2e5e;
+    --annonce-item-shadow : rgba(0, 0, 0, 0.3);
+
+    // ressource section
+    --ressource-background : #1b1e3d;
+    --ressource-item-border : #2a2e5e;
+    --ressource-item-shadow : rgba(0, 0, 0, 0.3);
+    --ressource-item-overlay : #00469c5d;
+    --ressource-item-btn : #2a2e5e;
+
+    // blog section
+    --blog-background : #1b1e3d;
+    --blog-dropdown-button-border : #2a2e5e;
+    --blog-dropdown-button-hover-border : #32376e;
+    --blog-dropdown-menu-hover : #22244d;
+    --blog-dropdown-button-shadow : rgba(0, 0, 0, 0.3);
+    --blog-post-border : #2a2e5e;
+    --blog-post-shadow : rgba(0, 0, 0, 0.3);
+    --blog-post-overlay : #00469c5d;
+
+
+    // annuaire section
+    --annuaire-background : #1b1e3d;
+    --annuaire-form-shadow : rgba(0, 0, 0, 0.3);
+    --annuaire-form-border : #077aff;
+    --annuaire-item-border : #2a2e5e;
+    --annuaire-item-bg : #1b1e3d;
+    --annuaire-item-shadow : rgba(0, 0, 0, 0.3);
+    --annuaire-item-link : #d4dcffab;
+
+    // contact section
+    --contact-background: #1b1e3d;
+    --contact-shadow: rgba(0, 0, 0, 0.3);
+    --contact-right-background: #22244d;
+    --contact-right-input-border: #d4dcffab;
+
+    // login
+    --login-background : #1b1e3d;
+    --login-form-background : #22244d;
+    --login-form-border : #d4dcff77;
+    --login-form-shadow : rgba(0, 0, 0, 0.3);
+    --login-form-error : #dc3545;
+    --login-form-icon : #d4dcff;
+    --login-form-placeholder : #d4dcff;
+
+    // signIn
+    --signIn-background : #1b1e3d;
+    --signIn-form-background : #22244d;
+    --signIn-form-border : #d4dcff77;
+    --signIn-form-shadow : rgba(0, 0, 0, 0.3);
+    --signIn-form-error : #dc3545;
+    --signIn-form-icon : #d4dcff;
+    --signIn-form-placeholder : #d4dcff;
+
+    // popUp Section
+    --popUp-background : rgba(0, 0, 0, 0.678);
+    --popUp-newletter-background : #1b1e3d;
+    --popUp-newletter-shadow : #00000034;
+    --popUp-newletter-close-bg : #d4dcff77;
+    --popUp-form-border : #d4dcff;
+    --popUp-form-error : #dc3545;
+    --popUp-form-icon : #d4dcff;
+    --popUp-form-placeholder : #d4dcff;
+    --popUp-form-select-dropdown-actionBox-background: none;
+
+    // terms
+    --terms-background : #1b1e3d;
+
+    // footer section
+    --footer-background : #1b1e3d;
+    --footer-border-top : #2a2e5edc;
+
+    // copyright section
+    --copyright-background : #1b1e3d;
+    --copyright-border-top : #2a2e5edc;
+    --copyright-scroll-top : rgba(7, 123, 255, 0.342);
+
+    // breadcumbs section
+    --breadcumbs-background : #171932;
+
+    // pagination
+    --pagination-border : var(--primary-color);
+    --pagination-shadow : rgba(0, 0, 0, 0.25);
+
+}
+
+.light .wave-dark , .light .dark-woman, .light .sun{
+    display: none !important;
+}
+.dark .wave-light, .dark .light-woman, .dark .moon{
+    display: none !important;
+}
